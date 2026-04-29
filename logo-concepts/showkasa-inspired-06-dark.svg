@@ -1,0 +1,20 @@
+<svg width="1400" height="900" viewBox="0 0 1400 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1400" height="900" fill="#0B0D16"/>
+  <defs><linearGradient id="g6" x1="470" y1="240" x2="790" y2="560" gradientUnits="userSpaceOnUse"><stop stop-color="#7268FF"/><stop offset="1" stop-color="#1A2143"/></linearGradient></defs>
+  <path d="M492 278C492 253.698 519.231 239.417 539.176 253.313L770.981 414.975C787.968 426.813 787.968 452.187 770.981 464.025L539.176 625.687C519.231 639.583 492 625.301 492 601V278Z" fill="url(#g6)"/>
+  <path d="M455 250C455 235.769 471.081 227.346 482.857 235.53L532 269.686L532 609.314L482.857 643.47C471.081 651.654 455 643.231 455 629V250Z" fill="#070A12"/>
+  <circle cx="460" cy="246" r="26" fill="#F7F4EE"/>
+  <circle cx="460" cy="246" r="16" fill="#0B0D16"/>
+  <circle cx="453" cy="239" r="3" fill="#F7F4EE"/>
+  <circle cx="467" cy="239" r="3" fill="#F7F4EE"/>
+  <circle cx="453" cy="253" r="3" fill="#F7F4EE"/>
+  <circle cx="467" cy="253" r="3" fill="#F7F4EE"/>
+  <circle cx="432" cy="322" r="20" fill="#F7F4EE"/>
+  <circle cx="432" cy="322" r="11" fill="#0B0D16"/>
+  <circle cx="427" cy="317" r="2.5" fill="#F7F4EE"/>
+  <circle cx="437" cy="317" r="2.5" fill="#F7F4EE"/>
+  <circle cx="427" cy="327" r="2.5" fill="#F7F4EE"/>
+  <circle cx="437" cy="327" r="2.5" fill="#F7F4EE"/>
+  <text x="700" y="760" fill="#F7F4EE" font-family="Sora, Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="100" font-weight="600" letter-spacing="10" text-anchor="middle">SHOWKASA</text>
+  <text x="700" y="824" fill="#8E96A8" font-family="Sora, Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="26" font-weight="400" letter-spacing="18" text-anchor="middle">MODERN PROPERTY STORYTELLING</text>
+</svg>

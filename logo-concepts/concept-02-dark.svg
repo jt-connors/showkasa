@@ -1,0 +1,9 @@
+<svg width="1600" height="400" viewBox="0 0 1600 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="400" fill="#090B10"/>
+  <text x="460" y="230" fill="#F5F1E8" font-family="Sora, Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="120" font-weight="500" letter-spacing="10">SHOW</text>
+  <text x="785" y="230" fill="#F5F1E8" font-family="Sora, Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="120" font-weight="500" letter-spacing="10">ASA</text>
+  <path d="M690 118V232" stroke="#F5F1E8" stroke-width="15" stroke-linecap="square"/>
+  <path d="M706 175L774 118" stroke="#F5F1E8" stroke-width="15" stroke-linecap="square"/>
+  <path d="M708 176L776 232" stroke="#B89B68" stroke-width="15" stroke-linecap="square"/>
+  <text x="800" y="312" fill="#8D93A1" font-family="Sora, Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="17" font-weight="400" letter-spacing="7" text-anchor="middle">CUSTOM K WITH SPLIT METAL ACCENT</text>
+</svg>

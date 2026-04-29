@@ -1,0 +1,12 @@
+<svg width="1600" height="400" viewBox="0 0 1600 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="400" fill="#090B10"/>
+  <g transform="translate(240 98)">
+    <rect x="0" y="0" width="164" height="164" rx="38" stroke="#F3EFE6" stroke-width="8"/>
+    <path d="M38 72V38H72" stroke="#B69367" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M126 38H92" stroke="#B69367" stroke-width="10" stroke-linecap="round"/>
+    <path d="M38 92V126H72" stroke="#B69367" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M126 126H92" stroke="#B69367" stroke-width="10" stroke-linecap="round"/>
+  </g>
+  <text x="470" y="225" fill="#F3EFE6" font-family="Sora, Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="108" font-weight="560" letter-spacing="4">Showkasa</text>
+  <text x="472" y="287" fill="#8A919F" font-family="Sora, Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="18" font-weight="420" letter-spacing="7">CURATED VISUAL PRESENTATION</text>
+</svg>

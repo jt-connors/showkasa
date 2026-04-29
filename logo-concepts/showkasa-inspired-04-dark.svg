@@ -1,0 +1,14 @@
+<svg width="1400" height="900" viewBox="0 0 1400 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1400" height="900" fill="#0B0D16"/>
+  <defs><linearGradient id="g4" x1="470" y1="240" x2="820" y2="560" gradientUnits="userSpaceOnUse"><stop stop-color="#6A62FF"/><stop offset="1" stop-color="#1D2346"/></linearGradient></defs>
+  <path d="M480 292C480 266.842 508.525 252.263 528.942 267.008L756.779 431.611C773.516 443.704 773.516 468.296 756.779 480.389L528.942 644.992C508.525 659.737 480 645.158 480 620V292Z" fill="url(#g4)"/>
+  <rect x="452" y="246" width="94" height="420" rx="47" fill="#0A0E1B"/>
+  <circle cx="499" cy="242" r="30" fill="#F7F4EE"/>
+  <circle cx="499" cy="242" r="18" fill="#0B0D16"/>
+  <circle cx="492" cy="235" r="3.5" fill="#F7F4EE"/>
+  <circle cx="506" cy="235" r="3.5" fill="#F7F4EE"/>
+  <circle cx="492" cy="249" r="3.5" fill="#F7F4EE"/>
+  <circle cx="506" cy="249" r="3.5" fill="#F7F4EE"/>
+  <text x="700" y="758" fill="#F7F4EE" font-family="Sora, Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="104" font-weight="560" letter-spacing="7" text-anchor="middle">Showkasa</text>
+  <text x="700" y="822" fill="#8E96A8" font-family="Sora, Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="28" font-weight="400" letter-spacing="16" text-anchor="middle">PREMIUM VISUAL MEDIA</text>
+</svg>

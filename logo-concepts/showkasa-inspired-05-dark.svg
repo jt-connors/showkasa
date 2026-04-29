@@ -1,0 +1,20 @@
+<svg width="1400" height="900" viewBox="0 0 1400 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1400" height="900" fill="#0B0D16"/>
+  <defs><linearGradient id="g5" x1="508" y1="240" x2="784" y2="560" gradientUnits="userSpaceOnUse"><stop stop-color="#6D64FF"/><stop offset="1" stop-color="#1C2348"/></linearGradient></defs>
+  <path d="M518 276C518 254.375 542.27 241.665 559.978 254.005L744.616 382.704C767.352 398.55 767.352 431.45 744.616 447.296L559.978 575.995C542.27 588.335 518 575.625 518 554V276Z" fill="url(#g5)"/>
+  <path d="M518 276C518 254.375 542.27 241.665 559.978 254.005L590 274.937L590 555.063L559.978 575.995C542.27 588.335 518 575.625 518 554V276Z" fill="#080B13" fill-opacity="0.28"/>
+  <circle cx="500" cy="256" r="24" fill="#F7F4EE"/>
+  <circle cx="500" cy="256" r="14" fill="#0B0D16"/>
+  <circle cx="494" cy="250" r="2.8" fill="#F7F4EE"/>
+  <circle cx="506" cy="250" r="2.8" fill="#F7F4EE"/>
+  <circle cx="494" cy="262" r="2.8" fill="#F7F4EE"/>
+  <circle cx="506" cy="262" r="2.8" fill="#F7F4EE"/>
+  <circle cx="470" cy="336" r="52" stroke="#F7F4EE" stroke-width="12" opacity="0.94"/>
+  <circle cx="470" cy="336" r="7" fill="#F7F4EE"/>
+  <circle cx="444" cy="320" r="7" fill="#F7F4EE"/>
+  <circle cx="496" cy="320" r="7" fill="#F7F4EE"/>
+  <circle cx="444" cy="352" r="7" fill="#F7F4EE"/>
+  <circle cx="496" cy="352" r="7" fill="#F7F4EE"/>
+  <text x="700" y="756" fill="#F7F4EE" font-family="Sora, Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="102" font-weight="600" letter-spacing="8" text-anchor="middle">SHOWKASA</text>
+  <text x="700" y="822" fill="#8E96A8" font-family="Sora, Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="27" font-weight="400" letter-spacing="17" text-anchor="middle">LUXURY MEDIA STUDIO</text>
+</svg>

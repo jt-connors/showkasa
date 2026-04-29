@@ -1,0 +1,24 @@
+<svg width="1400" height="900" viewBox="0 0 1400 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1400" height="900" fill="#F7F4EE"/>
+  <defs>
+    <linearGradient id="g1" x1="450" y1="220" x2="860" y2="520" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4138E2"/>
+      <stop offset="1" stop-color="#1A2246"/>
+    </linearGradient>
+  </defs>
+  <path d="M482 258C482 233.699 509.231 219.417 529.176 233.313L796.981 419.975C813.968 431.813 813.968 457.187 796.981 469.025L529.176 655.687C509.231 669.583 482 655.301 482 631V258Z" fill="url(#g1)"/>
+  <circle cx="475" cy="275" r="52" fill="#14171D"/>
+  <circle cx="475" cy="275" r="40" fill="#F7F4EE"/>
+  <circle cx="458" cy="258" r="7" fill="#14171D"/>
+  <circle cx="492" cy="258" r="7" fill="#14171D"/>
+  <circle cx="458" cy="292" r="7" fill="#14171D"/>
+  <circle cx="492" cy="292" r="7" fill="#14171D"/>
+  <circle cx="430" cy="352" r="28" fill="#14171D"/>
+  <circle cx="430" cy="352" r="20" fill="#F7F4EE"/>
+  <circle cx="422" cy="344" r="4" fill="#14171D"/>
+  <circle cx="438" cy="344" r="4" fill="#14171D"/>
+  <circle cx="422" cy="360" r="4" fill="#14171D"/>
+  <circle cx="438" cy="360" r="4" fill="#14171D"/>
+  <text x="700" y="760" fill="#14171D" font-family="Sora, Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="104" font-weight="600" letter-spacing="8" text-anchor="middle">SHOWKASA</text>
+  <text x="700" y="824" fill="#69707D" font-family="Sora, Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="28" font-weight="400" letter-spacing="16" text-anchor="middle">VISUAL STORYTELLING</text>
+</svg>

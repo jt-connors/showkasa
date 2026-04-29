@@ -1,0 +1,14 @@
+<svg width="1400" height="900" viewBox="0 0 1400 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1400" height="900" fill="#0B0D16"/>
+  <defs><linearGradient id="g3" x1="494" y1="246" x2="788" y2="534" gradientUnits="userSpaceOnUse"><stop stop-color="#6B62FF"/><stop offset="1" stop-color="#1A2142"/></linearGradient></defs>
+  <path d="M500 260C500 241.775 520.659 231.284 535.347 242.504L763.584 416.834C775.619 426.031 775.619 443.969 763.584 453.166L535.347 627.496C520.659 638.716 500 628.225 500 610V260Z" fill="url(#g3)"/>
+  <path d="M463 252C463 236.536 480.536 227.699 492.933 237.038L546 277.005L546 585.995L492.933 625.962C480.536 635.301 463 626.464 463 611V252Z" fill="#0D1224"/>
+  <circle cx="468" cy="248" r="34" fill="#F7F4EE"/>
+  <circle cx="468" cy="248" r="23" fill="#0B0D16"/>
+  <circle cx="456" cy="236" r="4" fill="#F7F4EE"/>
+  <circle cx="480" cy="236" r="4" fill="#F7F4EE"/>
+  <circle cx="456" cy="260" r="4" fill="#F7F4EE"/>
+  <circle cx="480" cy="260" r="4" fill="#F7F4EE"/>
+  <text x="700" y="762" fill="#F7F4EE" font-family="Sora, Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="98" font-weight="580" letter-spacing="6" text-anchor="middle">SHOWKASA</text>
+  <text x="700" y="824" fill="#8E96A8" font-family="Sora, Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="27" font-weight="400" letter-spacing="15" text-anchor="middle">SHOWCASE IN MOTION</text>
+</svg>

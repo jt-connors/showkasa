@@ -1,0 +1,129 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Showkasa Home Demo</title>
+<style>
+body { margin:0; background: radial-gradient(circle at top, rgba(255,255,255,0.06), transparent 30%), linear-gradient(180deg,#070b14 0%, #090f1d 40%, #05080f 100%); color:#fff; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif; }
+.frame { width: 1440px; margin: 0 auto; padding: 34px 40px 80px; }
+.nav { display:flex; align-items:center; justify-content:space-between; margin-bottom: 36px; }
+.brand { font-size: 24px; font-weight: 700; letter-spacing: -0.04em; }
+.menu { display:flex; gap:28px; color:rgba(255,255,255,.64); font-size:14px; }
+.cta { border:1px solid rgba(255,255,255,.14); background:rgba(255,255,255,.05); padding:11px 18px; border-radius:999px; color:#fff; font-size:14px; font-weight:600; }
+.hero { display:grid; grid-template-columns: 1.02fr 0.98fr; gap: 54px; align-items:center; min-height: 900px; }
+.eyebrow { display:inline-flex; align-items:center; gap:10px; border:1px solid rgba(255,255,255,.12); background:rgba(255,255,255,.055); padding:10px 16px; border-radius:999px; color:rgba(255,255,255,.68); font-size:11px; font-weight:700; letter-spacing:.34em; text-transform:uppercase; }
+.spark { width:8px; height:8px; border-radius:999px; background:#fff; box-shadow:0 0 18px rgba(255,255,255,.45); }
+h1 { margin:24px 0 0; max-width: 760px; font-size:78px; line-height:.93; letter-spacing:-.075em; font-weight:600; }
+.sub { margin-top:26px; max-width:680px; color:rgba(255,255,255,.72); font-size:28px; line-height:1.5; }
+.buttons { display:flex; gap:16px; margin-top:32px; }
+.btn-primary { background:#fff; color:#09111f; padding:16px 26px; border-radius:999px; font-weight:700; box-shadow:0 16px 50px rgba(255,255,255,.12); }
+.btn-secondary { border:1px solid rgba(255,255,255,.14); background:rgba(255,255,255,.03); color:#fff; padding:16px 26px; border-radius:999px; font-weight:700; }
+.note { margin-top:22px; max-width:660px; color:rgba(255,255,255,.54); font-size:19px; line-height:1.7; }
+.stats { margin-top:34px; display:grid; grid-template-columns:repeat(3,1fr); gap:14px; }
+.stat { min-height:92px; background:rgba(255,255,255,.045); border:1px solid rgba(255,255,255,.10); border-radius:24px; padding:20px 22px; color:rgba(255,255,255,.74); font-size:17px; line-height:1.55; box-shadow:0 20px 70px rgba(0,0,0,.35); backdrop-filter:blur(18px); }
+.image-wrap { position:relative; }
+.glow { position:absolute; inset:-26px; border-radius:40px; background:linear-gradient(135deg, rgba(255,255,255,.12), rgba(217,70,239,.08), transparent 60%); filter:blur(30px); }
+.shell { position:relative; border:1px solid rgba(255,255,255,.12); background:rgba(255,255,255,.045); border-radius:36px; padding:12px; box-shadow:0 35px 100px rgba(0,0,0,.52); }
+.inner { position:relative; overflow:hidden; border-radius:28px; border:1px solid rgba(255,255,255,.10); height:760px; }
+.inner img { width:100%; height:100%; object-fit:cover; filter:saturate(.92) contrast(1.08) brightness(.82); transform:scale(1.02); }
+.overlay { position:absolute; inset:0; background:linear-gradient(180deg, rgba(2,6,16,0.10) 0%, rgba(2,6,16,0.18) 28%, rgba(2,6,16,0.64) 100%); }
+.overlay2 { position:absolute; inset:0; background:radial-gradient(circle at top right, rgba(255,255,255,.16), transparent 30%); mix-blend-mode:screen; opacity:.60; }
+.caption { position:absolute; left:26px; right:26px; bottom:26px; }
+.caption .k { color:rgba(255,255,255,.52); font-size:12px; font-weight:700; letter-spacing:.34em; text-transform:uppercase; }
+.caption .t { margin-top:12px; color:#fff; font-size:34px; line-height:1.2; letter-spacing:-.03em; font-weight:500; }
+.section { padding: 80px 0; }
+.eyebrow2 { color:#c4b5fd; font-size:13px; font-weight:800; text-transform:uppercase; letter-spacing:.18em; }
+.h2 { margin-top:16px; max-width: 920px; font-size:58px; line-height:1.02; letter-spacing:-.06em; font-weight:600; }
+.body { margin-top:18px; max-width: 980px; color:rgba(255,255,255,.66); font-size:22px; line-height:1.7; }
+.grid2 { margin-top:28px; display:grid; grid-template-columns:1fr 1fr; gap:22px; }
+.grid4 { margin-top:28px; display:grid; grid-template-columns:repeat(4,1fr); gap:18px; }
+.grid4b { margin-top:28px; display:grid; grid-template-columns:repeat(2,1fr); gap:18px; }
+.card { background:rgba(255,255,255,.045); border:1px solid rgba(255,255,255,.10); border-radius:28px; padding:24px; box-shadow:0 20px 70px rgba(0,0,0,.28); }
+.card h3 { margin:0; font-size:28px; letter-spacing:-.03em; }
+.card p { margin:14px 0 0; color:rgba(255,255,255,.64); font-size:18px; line-height:1.65; }
+.number { width:48px; height:48px; border-radius:18px; display:flex; align-items:center; justify-content:center; border:1px solid rgba(255,255,255,.12); background:rgba(255,255,255,.08); margin-bottom:18px; font-weight:700; }
+.img-mini { height:220px; border-radius:28px; background-size:cover; background-position:center; }
+.cta-band { margin-top: 40px; background:linear-gradient(180deg, rgba(255,255,255,.07), rgba(255,255,255,.035)); border:1px solid rgba(255,255,255,.10); border-radius:34px; padding:38px; }
+</style>
+</head>
+<body>
+  <div class="frame">
+    <div class="nav">
+      <div class="brand">Showkasa</div>
+      <div class="menu"><span>Home</span><span>About</span><span>Services</span><span>Pricing</span><span>FAQ</span><span>Contact</span></div>
+      <div class="cta">Get Started</div>
+    </div>
+
+    <section class="hero">
+      <div>
+        <div class="eyebrow"><span class="spark"></span>Luxury visual presentation</div>
+        <h1>Bring your space to life with cinematic AI visuals</h1>
+        <div class="sub">Showkasa transforms photos of properties, restaurants, hotels, and businesses into premium short-form videos designed for websites, listings, and social media.</div>
+        <div class="buttons"><div class="btn-primary">Get Started</div><div class="btn-secondary">See Examples</div></div>
+        <div class="note">No full production crew. No complicated shoot days. Just elevated visual content built from the images you already have.</div>
+        <div class="stats">
+          <div class="stat">Premium visual storytelling for properties, hospitality, and local brands</div>
+          <div class="stat">Built for websites, listings, and social media</div>
+          <div class="stat">Created from the images you already have</div>
+        </div>
+      </div>
+      <div class="image-wrap">
+        <div class="glow"></div>
+        <div class="shell"><div class="inner"><img src="file:///Users/dexter/.openclaw/workspace/showkasa/src/assets/hero.png"><div class="overlay"></div><div class="overlay2"></div><div class="caption"><div class="k">Showkasa preview</div><div class="t">Cinematic AI visuals for spaces worth noticing.</div></div></div></div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="eyebrow2">The problem</div>
+      <div class="h2">Static photos do not tell the full story</div>
+      <div class="body">Most businesses and listings rely on flat images that fail to create emotion, attention, or momentum. In a crowded market, that means missed clicks, lower engagement, and weaker first impressions.</div>
+      <div class="grid2">
+        <div class="card"><p style="margin-top:0;font-size:22px;color:rgba(255,255,255,.74)">Showkasa turns existing images into polished, cinematic content that helps your space feel more modern, more immersive, and more valuable the moment someone sees it.</p></div>
+        <div class="grid2" style="margin-top:0;">
+          <div class="img-mini" style="background-image:url(file:///Users/dexter/.openclaw/workspace/showkasa/src/assets/hero.png)"></div>
+          <div class="img-mini" style="background-image:url(file:///Users/dexter/.openclaw/workspace/showkasa/src/assets/hero.png); filter:brightness(.9);"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="eyebrow2">What we do</div>
+      <div class="h2">AI-powered showcase videos for modern brands and spaces</div>
+      <div class="body">We create short-form visual content using your photos, creative direction, and advanced AI tools to transform still images into dynamic showcase videos.</div>
+      <div class="grid4">
+        <div class="card"><div class="number">01</div><h3>Property Listings</h3><p>Stand out on rental sites, real estate platforms, and landing pages with visuals that make a stronger first impression.</p></div>
+        <div class="card"><div class="number">02</div><h3>Hospitality</h3><p>Showcase hotels, restaurants, cafés, lounges, and venues with content that feels immersive and elevated.</p></div>
+        <div class="card"><div class="number">03</div><h3>Local Businesses</h3><p>Turn your storefront, studio, clinic, gym, or office into polished content for your website and social channels.</p></div>
+        <div class="card"><div class="number">04</div><h3>Social Content</h3><p>Repurpose your visuals into short-form videos designed for Instagram, TikTok, reels, ads, and promos.</p></div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="eyebrow2">Why Showkasa</div>
+      <div class="h2">Premium visual impact without the traditional production overhead</div>
+      <div class="grid4b">
+        <div class="card"><h3>Faster turnaround</h3><p>Create compelling content without coordinating a full on-site video production.</p></div>
+        <div class="card"><h3>More value from existing assets</h3><p>Turn photos you already have into stronger, more versatile marketing content.</p></div>
+        <div class="card"><h3>Designed for attention</h3><p>Built to help your space stand out in feeds, listing sites, and online marketplaces.</p></div>
+        <div class="card"><h3>Luxury presentation</h3><p>Visuals feel polished, elevated, and aligned with premium brands.</p></div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="eyebrow2">How it works</div>
+      <div class="h2">From photos to polished showcase content</div>
+      <div class="grid4">
+        <div class="card"><div class="number">01</div><h3>Send your images</h3><p>Share photos of your property, business, or space.</p></div>
+        <div class="card"><div class="number">02</div><h3>We build the visual concept</h3><p>We shape the creative direction, motion style, pacing, and overall feel.</p></div>
+        <div class="card"><div class="number">03</div><h3>We create the video</h3><p>We turn still images into polished visual content that feels cinematic and modern.</p></div>
+        <div class="card"><div class="number">04</div><h3>You receive ready-to-use content</h3><p>Delivered in formats optimized for websites, listings, Instagram, TikTok, and campaigns.</p></div>
+      </div>
+      <div class="cta-band">
+        <div class="eyebrow2" style="color:#e9d5ff;">Final CTA</div>
+        <div class="h2" style="font-size:54px; max-width:860px;">Static images show what a space looks like. Showkasa helps people feel it.</div>
+        <div class="body">The difference between being seen and being remembered often comes down to presentation.</div>
+      </div>
+    </section>
+  </div>
+</body>
+</html>

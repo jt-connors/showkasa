@@ -1,0 +1,44 @@
+<svg width="1400" height="900" viewBox="0 0 1400 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1400" height="900" fill="#0B0D12"/>
+  <rect x="28" y="20" width="1344" height="860" rx="22" stroke="#6E5A3B" stroke-opacity="0.5"/>
+  <text x="58" y="58" fill="#B29A72" font-family="Sora, Arial, sans-serif" font-size="22" letter-spacing="3">03, CLEAN HOUSE SILHOUETTE REFINED</text>
+  <rect x="58" y="86" width="292" height="292" rx="22" stroke="#8E7651"/>
+  <rect x="374" y="86" width="292" height="292" rx="22" fill="#2D2418" stroke="#8E7651"/>
+
+  <g transform="translate(92 120)">
+    <path d="M106 28H132L170 2L208 28H234C268.242 28 296 55.758 296 90V210C296 246.451 266.451 276 230 276H110C73.549 276 44 246.451 44 210V90C44 55.758 71.758 28 106 28Z" stroke="#F3EFE6" stroke-width="12" stroke-linejoin="round"/>
+    <rect x="100" y="84" width="140" height="140" rx="34" stroke="#AF8A5B" stroke-width="9"/>
+    <path d="M191 116C184.019 110.994 174.557 108 164 108C145.425 108 132 118.281 132 132C132 144.34 142.291 151.578 160.158 153.76C180.799 156.281 193 163.627 193 176.5C193 190.97 179.668 200 162 200C149.825 200 139.662 196.101 132 189.248" stroke="#F3EFE6" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M171 154L212 116" stroke="#F3EFE6" stroke-width="8" stroke-linecap="round"/>
+    <path d="M171 154L212 194" stroke="#AF8A5B" stroke-width="8" stroke-linecap="round"/>
+    <path d="M171 116V194" stroke="#AF8A5B" stroke-width="2.5" opacity="0.18" stroke-linecap="round"/>
+  </g>
+
+  <g transform="translate(408 120)">
+    <path d="M106 28H132L170 2L208 28H234C268.242 28 296 55.758 296 90V210C296 246.451 266.451 276 230 276H110C73.549 276 44 246.451 44 210V90C44 55.758 71.758 28 106 28Z" stroke="#0F131A" stroke-width="12" stroke-linejoin="round"/>
+    <rect x="100" y="84" width="140" height="140" rx="34" stroke="#AF8A5B" stroke-width="9"/>
+    <path d="M191 116C184.019 110.994 174.557 108 164 108C145.425 108 132 118.281 132 132C132 144.34 142.291 151.578 160.158 153.76C180.799 156.281 193 163.627 193 176.5C193 190.97 179.668 200 162 200C149.825 200 139.662 196.101 132 189.248" stroke="#0F131A" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M171 154L212 116" stroke="#0F131A" stroke-width="8" stroke-linecap="round"/>
+    <path d="M171 154L212 194" stroke="#AF8A5B" stroke-width="8" stroke-linecap="round"/>
+    <path d="M171 116V194" stroke="#AF8A5B" stroke-width="2.5" opacity="0.14" stroke-linecap="round"/>
+  </g>
+
+  <rect x="58" y="400" width="100" height="100" rx="18" stroke="#8E7651"/>
+  <rect x="176" y="400" width="100" height="100" rx="18" stroke="#8E7651"/>
+  <rect x="294" y="400" width="100" height="100" rx="18" stroke="#8E7651"/>
+  <g transform="translate(76 418) scale(0.24)">
+    <path d="M106 28H132L170 2L208 28H234C268.242 28 296 55.758 296 90V210C296 246.451 266.451 276 230 276H110C73.549 276 44 246.451 44 210V90C44 55.758 71.758 28 106 28Z" stroke="#F3EFE6" stroke-width="12" stroke-linejoin="round"/>
+    <rect x="100" y="84" width="140" height="140" rx="34" stroke="#AF8A5B" stroke-width="9"/>
+  </g>
+  <g transform="translate(194 418) scale(0.16)">
+    <path d="M106 28H132L170 2L208 28H234C268.242 28 296 55.758 296 90V210C296 246.451 266.451 276 230 276H110C73.549 276 44 246.451 44 210V90C44 55.758 71.758 28 106 28Z" stroke="#F3EFE6" stroke-width="12" stroke-linejoin="round"/>
+    <rect x="100" y="84" width="140" height="140" rx="34" stroke="#AF8A5B" stroke-width="9"/>
+  </g>
+  <g transform="translate(312 418) scale(0.11)">
+    <path d="M106 28H132L170 2L208 28H234C268.242 28 296 55.758 296 90V210C296 246.451 266.451 276 230 276H110C73.549 276 44 246.451 44 210V90C44 55.758 71.758 28 106 28Z" stroke="#F3EFE6" stroke-width="12" stroke-linejoin="round"/>
+    <rect x="100" y="84" width="140" height="140" rx="34" stroke="#AF8A5B" stroke-width="9"/>
+  </g>
+  <text x="104" y="474" fill="#B29A72" font-family="Sora, Arial, sans-serif" font-size="18" text-anchor="middle">64</text>
+  <text x="222" y="474" fill="#B29A72" font-family="Sora, Arial, sans-serif" font-size="18" text-anchor="middle">32</text>
+  <text x="340" y="474" fill="#B29A72" font-family="Sora, Arial, sans-serif" font-size="18" text-anchor="middle">16</text>
+</svg>

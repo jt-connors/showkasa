@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Showkasa Landing Snapshot</title>
+<style>
+  body { margin:0; background: radial-gradient(circle at top, rgba(255,255,255,0.06), transparent 30%), linear-gradient(180deg,#070b14 0%, #090f1d 45%, #060910 100%); color:#fff; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif; }
+  .frame { width: 1520px; margin: 0 auto; padding: 34px 42px 48px; }
+  .nav { display:flex; align-items:center; justify-content:space-between; margin-bottom: 40px; }
+  .brand { font-size: 24px; font-weight: 700; letter-spacing: -0.04em; }
+  .menu { display:flex; gap:28px; color:rgba(255,255,255,.64); font-size:14px; }
+  .cta { border:1px solid rgba(255,255,255,.14); background:rgba(255,255,255,.05); padding:11px 18px; border-radius:999px; color:#fff; font-size:14px; font-weight:600; }
+  .hero { display:grid; grid-template-columns: 1.02fr 0.98fr; gap: 54px; align-items:center; }
+  .eyebrow { display:inline-flex; align-items:center; gap:10px; border:1px solid rgba(255,255,255,.12); background:rgba(255,255,255,.055); padding:10px 16px; border-radius:999px; color:rgba(255,255,255,.68); font-size:11px; font-weight:700; letter-spacing:.34em; text-transform:uppercase; }
+  .spark { width:8px; height:8px; border-radius:999px; background:#fff; box-shadow:0 0 18px rgba(255,255,255,.45); }
+  h1 { margin:24px 0 0; max-width: 760px; font-size:82px; line-height:.93; letter-spacing:-.075em; font-weight:600; }
+  .sub { margin-top:26px; max-width:680px; color:rgba(255,255,255,.72); font-size:28px; line-height:1.5; }
+  .buttons { display:flex; gap:16px; margin-top:32px; }
+  .btn-primary { background:#fff; color:#09111f; padding:16px 26px; border-radius:999px; font-weight:700; box-shadow:0 16px 50px rgba(255,255,255,.12); }
+  .btn-secondary { border:1px solid rgba(255,255,255,.14); background:rgba(255,255,255,.03); color:#fff; padding:16px 26px; border-radius:999px; font-weight:700; }
+  .note { margin-top:22px; max-width:660px; color:rgba(255,255,255,.54); font-size:19px; line-height:1.7; }
+  .stats { margin-top:34px; display:grid; grid-template-columns:repeat(3,1fr); gap:14px; }
+  .stat { min-height:92px; background:rgba(255,255,255,.045); border:1px solid rgba(255,255,255,.10); border-radius:24px; padding:20px 22px; color:rgba(255,255,255,.74); font-size:17px; line-height:1.55; box-shadow:0 20px 70px rgba(0,0,0,.35); backdrop-filter:blur(18px); }
+  .image-wrap { position:relative; }
+  .glow { position:absolute; inset:-26px; border-radius:40px; background:linear-gradient(135deg, rgba(255,255,255,.12), rgba(217,70,239,.08), transparent 60%); filter:blur(30px); }
+  .shell { position:relative; border:1px solid rgba(255,255,255,.12); background:rgba(255,255,255,.045); border-radius:36px; padding:12px; box-shadow:0 35px 100px rgba(0,0,0,.52); }
+  .inner { position:relative; overflow:hidden; border-radius:28px; border:1px solid rgba(255,255,255,.10); height:760px; }
+  .inner img { width:100%; height:100%; object-fit:cover; filter:saturate(.92) contrast(1.08) brightness(.82); transform:scale(1.02); }
+  .overlay { position:absolute; inset:0; background:linear-gradient(180deg, rgba(2,6,16,0.10) 0%, rgba(2,6,16,0.18) 28%, rgba(2,6,16,0.64) 100%); }
+  .overlay2 { position:absolute; inset:0; background:radial-gradient(circle at top right, rgba(255,255,255,.16), transparent 30%); mix-blend-mode:screen; opacity:.60; }
+  .caption { position:absolute; left:26px; right:26px; bottom:26px; }
+  .caption .k { color:rgba(255,255,255,.52); font-size:12px; font-weight:700; letter-spacing:.34em; text-transform:uppercase; }
+  .caption .t { margin-top:12px; color:#fff; font-size:34px; line-height:1.2; letter-spacing:-.03em; font-weight:500; }
+</style>
+</head>
+<body>
+  <div class="frame">
+    <div class="nav">
+      <div class="brand">Showkasa</div>
+      <div class="menu">
+        <span>Home</span><span>About</span><span>Services</span><span>Pricing</span><span>FAQ</span><span>Contact</span>
+      </div>
+      <div class="cta">Get Started</div>
+    </div>
+
+    <div class="hero">
+      <div>
+        <div class="eyebrow"><span class="spark"></span>Luxury visual presentation</div>
+        <h1>Bring your space to life with cinematic AI visuals</h1>
+        <div class="sub">Showkasa transforms photos of properties, restaurants, hotels, and businesses into premium short-form videos designed for websites, listings, and social media.</div>
+        <div class="buttons">
+          <div class="btn-primary">Get Started</div>
+          <div class="btn-secondary">See Examples</div>
+        </div>
+        <div class="note">No full production crew. No complicated shoot days. Just elevated visual content built from the images you already have.</div>
+        <div class="stats">
+          <div class="stat">Premium visual storytelling for properties, hospitality, and local brands</div>
+          <div class="stat">Built for websites, listings, and social media</div>
+          <div class="stat">Created from the images you already have</div>
+        </div>
+      </div>
+      <div class="image-wrap">
+        <div class="glow"></div>
+        <div class="shell">
+          <div class="inner">
+            <img src="file:///Users/dexter/.openclaw/workspace/showkasa/src/assets/hero.png" alt="Luxury property interior" />
+            <div class="overlay"></div>
+            <div class="overlay2"></div>
+            <div class="caption">
+              <div class="k">Showkasa preview</div>
+              <div class="t">Cinematic AI visuals for spaces worth noticing.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

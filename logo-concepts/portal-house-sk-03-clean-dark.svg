@@ -1,0 +1,12 @@
+<svg width="1400" height="900" viewBox="0 0 1400 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1400" height="900" fill="#0B0D12"/>
+  <g transform="translate(444 138)">
+    <path d="M188 118H208L256 102L304 118H324C360.451 118 390 147.549 390 184V328C390 364.451 360.451 394 324 394H188C151.549 394 122 364.451 122 328V184C122 147.549 151.549 118 188 118Z" stroke="#F3EFE6" stroke-width="16" stroke-linejoin="round"/>
+    <rect x="175" y="174" width="162" height="162" rx="40" stroke="#AF8A5B" stroke-width="12"/>
+    <path d="M284 206C273.48 197.453 258.572 192 242 192C213.833 192 193 207.399 193 227.5C193 245.03 208.525 255.686 235.529 258.902C264.931 262.404 286 273.336 286 292.5C286 314.315 265.405 330 238 330C219.447 330 203.654 323.997 192 313.5" stroke="#F3EFE6" stroke-width="11.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M249 262L309 206" stroke="#F3EFE6" stroke-width="11.5" stroke-linecap="round"/>
+    <path d="M249 262L311 314" stroke="#AF8A5B" stroke-width="11.5" stroke-linecap="round"/>
+  </g>
+  <text x="700" y="742" fill="#F3EFE6" font-family="Sora, Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="104" font-weight="560" letter-spacing="8" text-anchor="middle">SHOWKASA</text>
+  <text x="700" y="808" fill="#8D95A3" font-family="Sora, Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="26" font-weight="400" letter-spacing="15" text-anchor="middle">PORTAL HOUSE STUDY 03, CLEAN SILHOUETTE</text>
+</svg>

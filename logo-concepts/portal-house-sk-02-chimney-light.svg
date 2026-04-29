@@ -1,0 +1,12 @@
+<svg width="1400" height="900" viewBox="0 0 1400 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1400" height="900" fill="#F7F4EE"/>
+  <g transform="translate(444 138)">
+    <path d="M197 118H214V98C214 90.268 220.268 84 228 84C235.732 84 242 90.268 242 98V118H322C359.555 118 390 148.445 390 186V326C390 363.555 359.555 394 322 394H190C152.445 394 122 363.555 122 326V186C122 148.445 152.445 118 190 118H197Z" stroke="#14171D" stroke-width="16" stroke-linejoin="round"/>
+    <rect x="175" y="174" width="162" height="162" rx="40" stroke="#9F7B4E" stroke-width="12"/>
+    <path d="M286 206C275.48 197.453 260.572 192 244 192C215.833 192 195 207.399 195 227.5C195 245.03 210.525 255.686 237.529 258.902C266.931 262.404 288 273.336 288 292.5C288 314.315 267.405 330 240 330C221.447 330 205.654 323.997 194 313.5" stroke="#14171D" stroke-width="11.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M251 262L309 206" stroke="#14171D" stroke-width="11.5" stroke-linecap="round"/>
+    <path d="M251 262L311 314" stroke="#9F7B4E" stroke-width="11.5" stroke-linecap="round"/>
+  </g>
+  <text x="700" y="742" fill="#14171D" font-family="Sora, Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="104" font-weight="560" letter-spacing="8" text-anchor="middle">SHOWKASA</text>
+  <text x="700" y="808" fill="#69707D" font-family="Sora, Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="26" font-weight="400" letter-spacing="15" text-anchor="middle">PORTAL HOUSE STUDY 02, INTEGRATED CHIMNEY</text>
+</svg>

@@ -1,0 +1,11 @@
+<svg width="1600" height="400" viewBox="0 0 1600 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="400" fill="#F8F5F0"/>
+  <path d="M294 138H358V154H310V202H294V138Z" fill="#10131A"/>
+  <path d="M358 246H294V230H342V182H358V246Z" fill="#9E845A"/>
+  <path d="M1242 138H1178V154H1226V202H1242V138Z" fill="#10131A"/>
+  <path d="M1178 246H1242V230H1194V182H1178V246Z" fill="#9E845A"/>
+  <text x="800" y="225" fill="#10131A" font-family="Sora, Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="108" font-weight="500" letter-spacing="8" text-anchor="middle">Showkasa</text>
+  <circle cx="657" cy="168" r="4" fill="#9E845A"/>
+  <circle cx="946" cy="168" r="4" fill="#9E845A"/>
+  <text x="800" y="305" fill="#646D79" font-family="Sora, Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="18" font-weight="400" letter-spacing="8" text-anchor="middle">FRAME CORNERS WITH QUIET SIGNAL MARKERS</text>
+</svg>

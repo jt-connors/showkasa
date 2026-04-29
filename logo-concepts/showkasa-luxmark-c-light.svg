@@ -1,0 +1,15 @@
+<svg width="1400" height="900" viewBox="0 0 1400 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1400" height="900" fill="#F7F4EE"/>
+  <g transform="translate(446 132)">
+    <path d="M256 78L382 174V384C382 426.974 347.974 460 306 460H206C164.026 460 130 426.974 130 384V174L256 78Z" stroke="#14171D" stroke-width="17" stroke-linejoin="round"/>
+    <path d="M176 208C176 188.118 192.118 172 212 172H306" stroke="#14171D" stroke-width="14" stroke-linecap="round"/>
+    <path d="M306 172C325.882 172 342 188.118 342 208V214" stroke="#9F7B4E" stroke-width="14" stroke-linecap="round"/>
+    <path d="M176 258C176 238.118 192.118 222 212 222H256" stroke="#14171D" stroke-width="14" stroke-linecap="round"/>
+    <path d="M176 308C176 288.118 192.118 272 212 272H256" stroke="#14171D" stroke-width="14" stroke-linecap="round"/>
+    <path d="M176 358C176 338.118 192.118 322 212 322H306" stroke="#14171D" stroke-width="14" stroke-linecap="round"/>
+    <path d="M256 272L342 186" stroke="#9F7B4E" stroke-width="14" stroke-linecap="round"/>
+    <path d="M256 272L342 358" stroke="#9F7B4E" stroke-width="14" stroke-linecap="round"/>
+  </g>
+  <text x="700" y="742" fill="#14171D" font-family="Sora, Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="104" font-weight="560" letter-spacing="8" text-anchor="middle">SHOWKASA</text>
+  <text x="700" y="808" fill="#69707D" font-family="Sora, Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="26" font-weight="400" letter-spacing="15" text-anchor="middle">ABSTRACT LUXURY EMBLEM STUDY C</text>
+</svg>
