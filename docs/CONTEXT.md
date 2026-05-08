@@ -57,6 +57,10 @@ Durable project context for the Showkasa website build.
   - `ai.dexter.showkasa-v2`
 - Expected result: both compare versions should come back after reboot/login
 
+## Repo / Delivery Notes
+- The refined `showkasa` version was initialized as its own git repo and pushed to GitHub successfully
+- Important follow-up: local git remote / branch tracking should be sanitized if a credentialed URL was used during push, and any exposed PAT should be treated as revocation-worthy
+
 ## Quality Bar
 - Strong typography and spacing matter more than novelty
 - One strong image is better than several weaker visual ideas competing at once
