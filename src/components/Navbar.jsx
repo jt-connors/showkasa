@@ -15,15 +15,15 @@ export default function Navbar() {
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 sm:px-8 lg:px-12">
         <Link
           to="/"
-          className="group flex items-center gap-3"
+          className="group flex items-center gap-3 lg:gap-3.5"
           onClick={() => setOpen(false)}
         >
-          <div className="relative flex h-11 w-11 items-center justify-center overflow-hidden rounded-full border border-white/12 bg-[#f7f4ee] shadow-[0_12px_40px_rgba(0,0,0,0.28)] transition-all duration-300 group-hover:border-[#cbb28b]/40 group-hover:shadow-[0_0_0_1px_rgba(203,178,139,0.12),0_0_18px_rgba(203,178,139,0.10),0_12px_40px_rgba(0,0,0,0.28)] sm:h-12 sm:w-12">
+          <div className="relative flex h-11 w-11 items-center justify-center overflow-hidden rounded-full border border-white/12 bg-[#f7f4ee] shadow-[0_12px_40px_rgba(0,0,0,0.28)] transition-all duration-300 group-hover:border-[#cbb28b]/40 group-hover:shadow-[0_0_0_1px_rgba(203,178,139,0.12),0_0_18px_rgba(203,178,139,0.10),0_12px_40px_rgba(0,0,0,0.28)] sm:h-12 sm:w-12 lg:h-[3.25rem] lg:w-[3.25rem]">
             <img src={showkasaMarkClean} alt="Showkasa" className="h-[94%] w-[94%] translate-x-[3%] object-contain" />
           </div>
           <div className="leading-none transition-all duration-300 group-hover:drop-shadow-[0_0_10px_rgba(203,178,139,0.10)]">
-            <div className="text-[0.72rem] font-semibold tracking-[0.14em] text-white/96 transition-colors duration-300 group-hover:text-white sm:text-[0.88rem] sm:tracking-[0.18em]">SHOWKASA</div>
-            <div className="mt-1 text-[0.58rem] font-medium text-white/40 transition-colors duration-300 group-hover:text-white/50 sm:text-[0.72rem] sm:text-white/42 sm:group-hover:text-white/52">Bring your space to life.</div>
+            <div className="text-[0.72rem] font-semibold tracking-[0.14em] text-white/96 transition-colors duration-300 group-hover:text-white sm:text-[0.88rem] sm:tracking-[0.18em] lg:text-[0.98rem] lg:tracking-[0.22em]">SHOWKASA</div>
+            <div className="mt-1 text-[0.58rem] font-medium text-white/40 transition-colors duration-300 group-hover:text-white/50 sm:text-[0.72rem] sm:text-white/42 sm:group-hover:text-white/52 lg:text-[0.79rem] lg:text-white/46">Bring your space to life.</div>
           </div>
         </Link>
 
@@ -41,7 +41,10 @@ export default function Navbar() {
         </nav>
 
         <div className="hidden lg:block">
-          <Link to="/contact" className="btn-primary">
+          <Link
+            to="/contact"
+            className="btn-primary border-white/14 bg-white text-slate-950 shadow-[0_0_0_1px_rgba(255,255,255,0.08),0_18px_40px_rgba(255,255,255,0.14)] hover:shadow-[0_0_0_1px_rgba(255,255,255,0.1),0_24px_54px_rgba(255,255,255,0.18)]"
+          >
             Request a Project
           </Link>
         </div>
