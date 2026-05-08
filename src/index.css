@@ -114,17 +114,6 @@ img {
   transform: scale(1.015);
 }
 
-.hero-image-shell:hover {
-  transform: translateY(-5px);
-  border-color: rgba(255, 255, 255, 0.16);
-  box-shadow: 0 40px 120px rgba(0, 0, 0, 0.6);
-}
-
-.hero-image-shell:hover .hero-image {
-  transform: scale(1.04) translateY(-2px);
-  filter: saturate(0.96) contrast(1.13) brightness(0.86);
-}
-
 .cta-glow {
   box-shadow: 0 20px 60px rgba(255, 255, 255, 0.08), inset 0 1px 0 rgba(255, 255, 255, 0.06);
 }

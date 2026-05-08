@@ -3,6 +3,8 @@ import { motion, useScroll, useSpring, useTransform } from 'framer-motion'
 import Section from '../components/Section'
 import Reveal from '../components/Reveal'
 import { Bullet, GlassCard, PrimaryButton, SecondaryButton } from '../components/Ui'
+import heroVideo from '../assets/propertyvideo.mp4'
+import heroVideoPoster from '../assets/propertyvideo-poster.jpg'
 import {
   heroStats,
   howItWorks,
@@ -26,8 +28,51 @@ export default function HomePage() {
 
   return (
     <>
-      <Section className="pt-16 sm:pt-20 lg:pt-28">
-        <div className="grid items-center gap-14 lg:grid-cols-[1.02fr_0.98fr]">
+      <Section className="pt-8 sm:pt-20 lg:pt-28">
+        <div className="lg:hidden">
+          <div className="relative">
+            <div className="absolute -inset-6 rounded-[2.2rem] bg-gradient-to-br from-white/10 via-fuchsia-400/6 to-transparent blur-3xl" />
+            <div className="hero-image-shell relative overflow-hidden rounded-[2rem] border border-white/12 bg-white/[0.045] p-2.5 shadow-[0_35px_100px_rgba(0,0,0,0.52)] backdrop-blur-xl">
+              <div className="relative overflow-hidden rounded-[1.5rem] border border-white/10 bg-[#070b14]">
+                <video
+                  src={heroVideo}
+                  poster={heroVideoPoster}
+                  autoPlay
+                  muted
+                  loop
+                  playsInline
+                  preload="auto"
+                  className="hero-image h-[32rem] w-full object-cover"
+                />
+                <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(2,6,16,0.18)_0%,rgba(2,6,16,0.2)_28%,rgba(2,6,16,0.64)_100%)]" />
+                <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(255,255,255,0.14),transparent_32%)] mix-blend-screen opacity-50" />
+                <div className="absolute inset-0 flex flex-col items-center justify-center px-6 text-center">
+                  <div className="mb-5 inline-flex items-center gap-2 rounded-full border border-white/12 bg-slate-950/35 px-3 py-2 text-[10px] font-semibold uppercase tracking-[0.28em] text-white/72 backdrop-blur-xl">
+                    <Sparkles size={12} className="text-white/72" />
+                    Showkasa visual presentation
+                  </div>
+                  <h1 className="max-w-[11ch] text-[2.3rem] font-semibold leading-[0.96] tracking-[-0.07em] text-white">
+                    Bring your space to life with cinematic visuals
+                  </h1>
+                </div>
+              </div>
+            </div>
+            <div className="mt-6 px-1">
+              <p className="max-w-xl text-base leading-7 text-white/70">
+                Showkasa transforms photos of properties, restaurants, hotels, and businesses into premium short-form videos designed for websites, listings, and social media.
+              </p>
+              <div className="mt-6 flex flex-col gap-3">
+                <PrimaryButton to="/contact">Get Started</PrimaryButton>
+                <SecondaryButton to="/services">See Examples</SecondaryButton>
+              </div>
+              <p className="mt-5 max-w-xl text-sm leading-7 text-white/50">
+                No full production crew. No complicated shoot days. Just elevated visual content built from the images you already have.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div className="hidden items-center gap-14 lg:grid lg:grid-cols-[1.02fr_0.98fr]">
           <Reveal>
             <div>
               <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-white/12 bg-white/[0.055] px-4 py-2 text-[11px] font-semibold uppercase tracking-[0.34em] text-white/62 backdrop-blur-xl">
@@ -64,9 +109,14 @@ export default function HomePage() {
               <div className="absolute -inset-8 rounded-[2.5rem] bg-gradient-to-br from-white/12 via-fuchsia-400/8 to-transparent blur-3xl" />
               <div className="hero-image-shell relative overflow-hidden rounded-[2.2rem] border border-white/12 bg-white/[0.045] p-3 shadow-[0_35px_100px_rgba(0,0,0,0.52)] backdrop-blur-xl">
                 <div className="relative overflow-hidden rounded-[1.6rem] border border-white/10">
-                  <motion.img
-                    src={imagery.property}
-                    alt="Luxury property interior"
+                  <motion.video
+                    src={heroVideo}
+                    poster={heroVideoPoster}
+                    autoPlay
+                    muted
+                    loop
+                    playsInline
+                    preload="metadata"
                     className="hero-image h-[30rem] w-full object-cover sm:h-[38rem]"
                     style={{ y: heroParallaxY, scale: heroParallaxScale }}
                   />
