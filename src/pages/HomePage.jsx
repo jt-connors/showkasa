@@ -31,7 +31,7 @@ export default function HomePage() {
       <Section className="pt-8 sm:pt-20 lg:pt-28">
         <div className="lg:hidden">
           <div className="relative">
-            <div className="absolute -inset-6 rounded-[2.2rem] bg-gradient-to-br from-white/10 via-fuchsia-400/6 to-transparent blur-3xl" />
+            <div className="pointer-events-none absolute -inset-6 rounded-[2.2rem] bg-gradient-to-br from-white/10 via-fuchsia-400/6 to-transparent blur-3xl" />
             <div className="hero-image-shell relative overflow-hidden rounded-[2rem] border border-white/12 bg-white/[0.045] p-2.5 shadow-[0_35px_100px_rgba(0,0,0,0.52)] backdrop-blur-xl">
               <div className="relative overflow-hidden rounded-[1.5rem] border border-white/10 bg-[#070b14]">
                 <video
@@ -44,9 +44,9 @@ export default function HomePage() {
                   preload="auto"
                   className="hero-image h-[32rem] w-full object-cover"
                 />
-                <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(2,6,16,0.18)_0%,rgba(2,6,16,0.2)_28%,rgba(2,6,16,0.64)_100%)]" />
-                <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(255,255,255,0.14),transparent_32%)] mix-blend-screen opacity-50" />
-                <div className="absolute inset-0 flex flex-col items-center justify-center px-6 text-center">
+                <div className="pointer-events-none absolute inset-0 bg-[linear-gradient(180deg,rgba(2,6,16,0.18)_0%,rgba(2,6,16,0.2)_28%,rgba(2,6,16,0.64)_100%)]" />
+                <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(255,255,255,0.14),transparent_32%)] mix-blend-screen opacity-50" />
+                <div className="pointer-events-none absolute inset-0 flex flex-col items-center justify-center px-6 text-center">
                   <div className="mb-5 inline-flex items-center gap-2 rounded-full border border-white/12 bg-slate-950/35 px-3 py-2 text-[10px] font-semibold uppercase tracking-[0.28em] text-white/72 backdrop-blur-xl">
                     <Sparkles size={12} className="text-white/72" />
                     Showkasa visual presentation
@@ -106,7 +106,7 @@ export default function HomePage() {
 
           <Reveal delay={0.12}>
             <div className="relative">
-              <div className="absolute -inset-8 rounded-[2.5rem] bg-gradient-to-br from-white/12 via-fuchsia-400/8 to-transparent blur-3xl" />
+              <div className="pointer-events-none absolute -inset-8 rounded-[2.5rem] bg-gradient-to-br from-white/12 via-fuchsia-400/8 to-transparent blur-3xl" />
               <div className="hero-image-shell relative overflow-hidden rounded-[2.2rem] border border-white/12 bg-white/[0.045] p-3 shadow-[0_35px_100px_rgba(0,0,0,0.52)] backdrop-blur-xl">
                 <div className="relative overflow-hidden rounded-[1.6rem] border border-white/10">
                   <motion.video
@@ -120,9 +120,9 @@ export default function HomePage() {
                     className="hero-image h-[30rem] w-full object-cover sm:h-[38rem]"
                     style={{ y: heroParallaxY, scale: heroParallaxScale }}
                   />
-                  <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(2,6,16,0.12)_0%,rgba(2,6,16,0.18)_28%,rgba(2,6,16,0.62)_100%)]" />
-                  <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(255,255,255,0.16),transparent_30%)] mix-blend-screen opacity-60" />
-                  <div className="absolute inset-x-6 bottom-6">
+                  <div className="pointer-events-none absolute inset-0 bg-[linear-gradient(180deg,rgba(2,6,16,0.12)_0%,rgba(2,6,16,0.18)_28%,rgba(2,6,16,0.62)_100%)]" />
+                  <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(255,255,255,0.16),transparent_30%)] mix-blend-screen opacity-60" />
+                  <div className="pointer-events-none absolute inset-x-6 bottom-6">
                     <p className="text-xs uppercase tracking-[0.34em] text-white/52">Showkasa preview</p>
                     <p className="mt-2 text-lg font-medium tracking-[-0.03em] text-white sm:text-xl">Cinematic AI visuals for spaces worth noticing.</p>
                   </div>
