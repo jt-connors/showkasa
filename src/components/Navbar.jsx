@@ -1,7 +1,8 @@
 import { Link, NavLink } from 'react-router-dom'
 import { Menu, X } from 'lucide-react'
 import { useState } from 'react'
-import { navItems, site } from '../data/site'
+import { navItems } from '../data/site'
+import showkasaMarkClean from '../assets/showkasa-mark-clean.jpg'
 
 const navLinkClass = ({ isActive }) =>
   `relative transition-all duration-500 ${isActive ? 'text-white' : 'text-white/60 hover:text-white'}`
@@ -12,13 +13,17 @@ export default function Navbar() {
   return (
     <header className="sticky top-0 z-50 border-b border-white/10 bg-slate-950/70 backdrop-blur-xl">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 sm:px-8 lg:px-12">
-        <Link to="/" className="flex items-center gap-3" onClick={() => setOpen(false)}>
-          <div className="flex h-10 w-10 items-center justify-center rounded-2xl border border-white/12 bg-white/8 shadow-[0_0_0_1px_rgba(255,255,255,0.04),0_20px_60px_rgba(6,10,24,0.45)]">
-            <span className="text-sm font-semibold tracking-[0.3em] text-white">S</span>
+        <Link
+          to="/"
+          className="group flex items-center gap-3"
+          onClick={() => setOpen(false)}
+        >
+          <div className="relative flex h-11 w-11 items-center justify-center overflow-hidden rounded-full border border-white/12 bg-[#f7f4ee] shadow-[0_12px_40px_rgba(0,0,0,0.28)] transition-all duration-300 group-hover:border-[#cbb28b]/40 group-hover:shadow-[0_0_0_1px_rgba(203,178,139,0.12),0_0_18px_rgba(203,178,139,0.10),0_12px_40px_rgba(0,0,0,0.28)] sm:h-12 sm:w-12">
+            <img src={showkasaMarkClean} alt="Showkasa" className="h-[94%] w-[94%] translate-x-[3%] object-contain" />
           </div>
-          <div>
-            <div className="text-sm font-semibold tracking-[0.2em] text-white">{site.brand.toUpperCase()}</div>
-            <div className="text-xs text-white/45">{site.tagline}</div>
+          <div className="leading-none transition-all duration-300 group-hover:drop-shadow-[0_0_10px_rgba(203,178,139,0.10)]">
+            <div className="text-[0.72rem] font-semibold tracking-[0.14em] text-white/96 transition-colors duration-300 group-hover:text-white sm:text-[0.88rem] sm:tracking-[0.18em]">SHOWKASA</div>
+            <div className="mt-1 text-[0.58rem] font-medium text-white/40 transition-colors duration-300 group-hover:text-white/50 sm:text-[0.72rem] sm:text-white/42 sm:group-hover:text-white/52">Bring your space to life.</div>
           </div>
         </Link>
 
