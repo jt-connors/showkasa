@@ -18,7 +18,6 @@ const initialForm = {
   spaceType: '',
   usageContext: '',
   projectDetails: '',
-  imageLinks: '',
   company: '',
 }
 
@@ -67,7 +66,6 @@ export default function ContactPage() {
           type_of_space_or_business: form.spaceType,
           where_content_will_be_used: form.usageContext,
           project_details: form.projectDetails,
-          upload_or_link_to_images: form.imageLinks,
           _subject: `Showkasa inquiry from ${form.name || 'Website visitor'}`,
           _replyto: form.email,
           _to: 'contact@showkasa.com',
@@ -156,18 +154,6 @@ export default function ContactPage() {
                     value={form.projectDetails}
                     onChange={handleChange}
                     className="w-full rounded-3xl border border-white/12 bg-white/6 px-4 py-4 text-white outline-none transition placeholder:text-white/25 focus:border-white/30 focus:bg-white/8"
-                  />
-                </label>
-
-                <label className="block">
-                  <span className="mb-2 block text-sm text-white/62">Upload or link to images</span>
-                  <input
-                    name="imageLinks"
-                    type="text"
-                    placeholder="Upload or link to images"
-                    value={form.imageLinks}
-                    onChange={handleChange}
-                    className="w-full rounded-2xl border border-dashed border-white/16 bg-white/5 px-4 py-3 text-white outline-none transition placeholder:text-white/25 focus:border-white/30 focus:bg-white/8"
                   />
                 </label>
 
