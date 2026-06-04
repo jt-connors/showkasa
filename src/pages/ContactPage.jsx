@@ -103,7 +103,7 @@ export default function ContactPage() {
             <div>
               <p className="mb-5 text-xs font-semibold uppercase tracking-[0.38em] text-white/45">Contact</p>
               <h1 className="text-5xl font-semibold tracking-[-0.06em] text-white sm:text-6xl">
-                Let’s create something your audience actually notices
+                It’s time to elevate your content and grow your business
               </h1>
               <p className="mt-7 max-w-2xl text-lg leading-8 text-white/68 sm:text-xl">
                 Tell us about your space, your brand, and where you want to use the content. We’ll follow up with the best next step for your project.

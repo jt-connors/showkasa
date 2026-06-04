@@ -1,19 +1,15 @@
-import { Sparkles, Layers3 } from 'lucide-react'
+import { Sparkles } from 'lucide-react'
 import { motion, useScroll, useSpring, useTransform } from 'framer-motion'
 import Section from '../components/Section'
 import Reveal from '../components/Reveal'
-import { Bullet, GlassCard, PrimaryButton, SecondaryButton } from '../components/Ui'
+import { GlassCard, PrimaryButton, SecondaryButton } from '../components/Ui'
 import heroVideo from '../assets/propertyvideo.mp4'
 import heroVideoPoster from '../assets/propertyvideo-poster.jpg'
 import {
   heroStats,
   howItWorks,
   imagery,
-  useCases,
   whatWeDoCards,
-  whoItsFor,
-  whyShowkasa,
-  whyShowkasaBodies,
 } from '../data/site'
 
 export default function HomePage() {
@@ -75,12 +71,8 @@ export default function HomePage() {
         <div className="hidden items-center gap-14 lg:grid lg:grid-cols-[1.02fr_0.98fr]">
           <Reveal>
             <div>
-              <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-white/12 bg-white/[0.055] px-4 py-2 text-[11px] font-semibold uppercase tracking-[0.34em] text-white/62 backdrop-blur-xl">
-                <Sparkles size={14} className="text-white/72" />
-                Luxury visual presentation
-              </div>
               <h1 className="max-w-4xl text-5xl font-semibold tracking-[-0.07em] text-white sm:text-6xl lg:text-7xl lg:leading-[0.96]">
-                Bring your space to life with cinematic AI visuals
+                Bring your space to life with cinematic visuals
               </h1>
               <p className="mt-7 max-w-2xl text-lg leading-8 text-white/72 sm:text-xl">
                 Showkasa transforms photos of properties, restaurants, hotels, and businesses into premium short-form videos designed for websites, listings, and social media.
@@ -153,14 +145,9 @@ export default function HomePage() {
 
       <Section
         eyebrow="What we do"
-        title="AI-powered showcase videos for modern brands and spaces"
-        body="We create short-form visual content using your photos, creative direction, and advanced AI tools to transform still images into dynamic showcase videos."
+        title="Showcase videos for modern brands and spaces"
+        body="We create short-form visual content using your photos, creative direction, and advanced AI tools to transform still images into dynamic showcase videos. Whether you are promoting a property listing, an Airbnb, a restaurant interior, a boutique hotel, or a local business, Showkasa helps you present your space in a way that feels premium and current."
       >
-        <Reveal>
-          <p className="mb-8 max-w-3xl text-base leading-8 text-white/68 sm:text-lg">
-            Whether you are promoting a property listing, an Airbnb, a restaurant interior, a boutique hotel, or a local business, Showkasa helps you present your space in a way that feels premium and current.
-          </p>
-        </Reveal>
         <div className="grid gap-6 md:grid-cols-2 xl:grid-cols-4">
           {whatWeDoCards.map((card, index) => (
             <Reveal key={card.title} delay={0.06 * index}>
@@ -170,22 +157,6 @@ export default function HomePage() {
                 </div>
                 <h3 className="text-xl font-medium text-white">{card.title}</h3>
                 <p className="mt-4 text-sm leading-7 text-white/62">{card.body}</p>
-              </GlassCard>
-            </Reveal>
-          ))}
-        </div>
-      </Section>
-
-      <Section
-        eyebrow="Who it’s for"
-        title="Built for businesses that depend on presentation"
-        body="If your business wins attention through how it looks, feels, and is experienced, Showkasa helps you present it better online."
-      >
-        <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
-          {whoItsFor.map((item, index) => (
-            <Reveal key={item} delay={0.03 * index}>
-              <GlassCard className="shine-card p-5">
-                <p className="text-sm leading-7 text-white/72 sm:text-base">{item}</p>
               </GlassCard>
             </Reveal>
           ))}
@@ -206,63 +177,16 @@ export default function HomePage() {
         </div>
       </Section>
 
-      <Section eyebrow="Why Showkasa" title="Premium visual impact without the traditional production overhead">
-        <div className="grid gap-6 lg:grid-cols-[1fr_1fr]">
-          <Reveal>
-            <GlassCard className="shine-card p-8 sm:p-10">
-              <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/6 px-4 py-2 text-[11px] uppercase tracking-[0.3em] text-white/45">
-                <Layers3 size={14} />
-                Visual advantage
-              </div>
-              <div className="space-y-5">
-                {whyShowkasa.map((title, index) => (
-                  <Bullet key={title}>{`${title} — ${whyShowkasaBodies[index]}`}</Bullet>
-                ))}
-              </div>
-            </GlassCard>
-          </Reveal>
-          <Reveal delay={0.12}>
-            <GlassCard className="overflow-hidden p-3">
-              <img src={imagery.property} alt="Premium listing detail" className="h-full min-h-[22rem] w-full rounded-[1.4rem] object-cover" />
-            </GlassCard>
-          </Reveal>
-        </div>
-      </Section>
-
-      <Section
-        eyebrow="Use cases"
-        title="Made for more than one industry"
-        body="Showkasa is flexible by design. The same visual transformation that elevates a condo listing can also elevate a restaurant, a hotel, or a retail brand."
-      >
-        <div className="grid gap-6 md:grid-cols-2 xl:grid-cols-3">
-          {useCases.map((item, index) => (
-            <Reveal key={item.title} delay={0.06 * index}>
-              <GlassCard className="shine-card h-full p-6">
-                <h3 className="text-xl font-medium text-white">{item.title}</h3>
-                <p className="mt-4 text-sm leading-7 text-white/62">{item.body}</p>
-              </GlassCard>
-            </Reveal>
-          ))}
-        </div>
-      </Section>
-
-      <Section
-        eyebrow="Showcase statement"
-        title="Static images show what a space looks like. Showkasa helps people feel it."
-        body="The difference between being seen and being remembered often comes down to presentation. Showkasa helps transform ordinary image galleries into visual experiences that create more interest, more curiosity, and more perceived value."
-      />
-
       <Section className="pb-20 lg:pb-28">
         <Reveal>
           <GlassCard className="cta-glow overflow-hidden p-8 sm:p-10 lg:p-12">
             <div className="grid items-center gap-8 lg:grid-cols-[1.2fr_0.8fr]">
               <div>
-                <p className="text-xs font-semibold uppercase tracking-[0.34em] text-white/45">CTA</p>
-                <h2 className="mt-4 text-3xl font-semibold tracking-[-0.05em] text-white sm:text-4xl lg:text-5xl">
+                <h2 className="text-3xl font-semibold tracking-[-0.05em] text-white sm:text-4xl lg:text-5xl">
                   Ready to showcase your space at a higher level?
                 </h2>
                 <p className="mt-5 max-w-2xl text-base leading-8 text-white/66 sm:text-lg">
-                  Let’s create premium visual content for your listings, website, and social channels using the assets you already have.
+                  It’s time to create premium visual content for your listings, website, and social channels.
                 </p>
               </div>
               <div className="flex justify-start lg:justify-end">

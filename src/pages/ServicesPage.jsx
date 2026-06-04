@@ -39,6 +39,40 @@ export default function ServicesPage() {
         </div>
       </Section>
 
+      <Section eyebrow="Use cases" title="Made for more than one industry" body="Showkasa is flexible by design. The same visual transformation that elevates a condo listing can also elevate a restaurant, a hotel, or a retail brand.">
+        <div className="grid gap-6 md:grid-cols-2 xl:grid-cols-3">
+          {[
+            {
+              title: 'Real Estate Listings',
+              body: 'Make apartments, condos, homes, and developments feel more alive on listing platforms.',
+            },
+            {
+              title: 'Short-Term Rentals',
+              body: 'Help Airbnb and vacation rental properties stand out with better visual storytelling.',
+            },
+            {
+              title: 'Restaurants and Hospitality',
+              body: 'Turn interiors, ambiance, and design details into promotional content that draws people in.',
+            },
+            {
+              title: 'Retail and Local Business',
+              body: 'Upgrade your website and social presence with video content built from your existing imagery.',
+            },
+            {
+              title: 'Launches and Promotions',
+              body: 'Use showcase videos for new openings, featured spaces, seasonal promotions, or paid campaigns.',
+            },
+          ].map((item, index) => (
+            <Reveal key={item.title} delay={0.06 * index}>
+              <GlassCard className="shine-card h-full p-6">
+                <h3 className="text-xl font-medium text-white">{item.title}</h3>
+                <p className="mt-4 text-sm leading-7 text-white/62">{item.body}</p>
+              </GlassCard>
+            </Reveal>
+          ))}
+        </div>
+      </Section>
+
       <Section className="pb-20 lg:pb-28">
         <Reveal>
           <GlassCard className="flex flex-col items-start justify-between gap-6 p-8 sm:flex-row sm:items-center sm:p-10">

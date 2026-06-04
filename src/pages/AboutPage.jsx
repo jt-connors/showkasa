@@ -28,6 +28,30 @@ export default function AboutPage() {
         </div>
       </Section>
 
+      <Section eyebrow="Who we serve" title="Built for businesses that depend on presentation">
+        <Reveal>
+          <GlassCard className="shine-card p-8 sm:p-10">
+            <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
+              {[
+                'Real estate agents',
+                'Property managers',
+                'Airbnb and short-term rental hosts',
+                'Developers and staging teams',
+                'Restaurants and cafés',
+                'Hotels and hospitality groups',
+                'Retail businesses',
+                'Salons, spas, and boutique studios',
+                'Marketing teams and creative agencies',
+              ].map((item) => (
+                <div key={item} className="rounded-2xl border border-white/8 bg-white/5 px-4 py-3 text-sm text-white/72 sm:text-base">
+                  {item}
+                </div>
+              ))}
+            </div>
+          </GlassCard>
+        </Reveal>
+      </Section>
+
       <Section eyebrow="Why we exist" title="Why we exist">
         <Reveal>
           <GlassCard className="shine-card p-8 sm:p-10">
@@ -56,11 +80,39 @@ export default function AboutPage() {
         </Reveal>
       </Section>
 
-      <Section eyebrow="Modern browsing" title="Built for the way people browse now" className="pb-20 lg:pb-28">
+      <Section eyebrow="Why Showkasa" title="Premium visual impact without the traditional production overhead">
+        <Reveal>
+          <GlassCard className="shine-card p-8 sm:p-10">
+            <div className="space-y-5">
+              <p className="text-base leading-8 text-white/68 sm:text-lg">
+                Faster turnaround, more value from existing assets, and platform-ready delivery are all part of the advantage.
+              </p>
+              <p className="text-base leading-8 text-white/68 sm:text-lg">
+                We create compelling content without forcing you into a full on-site video production, and we shape every deliverable to feel polished, elevated, and aligned with premium brands.
+              </p>
+              <p className="text-base leading-8 text-white/68 sm:text-lg">
+                The result is stronger presentation across websites, listing portals, Instagram, TikTok, paid ads, and email campaigns.
+              </p>
+            </div>
+          </GlassCard>
+        </Reveal>
+      </Section>
+
+      <Section eyebrow="Showkasa" title="Static images show what a space looks like. Showkasa helps people feel it.">
         <Reveal>
           <GlassCard className="shine-card p-8 sm:p-10">
             <p className="text-base leading-8 text-white/68 sm:text-lg">
-              Attention is fast. First impressions happen instantly. Static photo galleries are no longer enough in many categories. Showkasa helps businesses adapt by creating visual content that feels natural for modern websites, real estate platforms, and social media environments where motion performs better than stills alone.
+              The difference between being seen and being remembered often comes down to presentation. Showkasa helps transform ordinary image galleries into visual experiences that create more interest, more curiosity, and more perceived value.
+            </p>
+          </GlassCard>
+        </Reveal>
+      </Section>
+
+      <Section eyebrow="Modern browsing" title="Built for today’s browsing habits" className="pb-20 lg:pb-28">
+        <Reveal>
+          <GlassCard className="shine-card p-8 sm:p-10">
+            <p className="text-base leading-8 text-white/68 sm:text-lg">
+              First impressions happen once, and attention fades fast. Static photos aren’t enough anymore. Showkasa helps businesses adapt by creating visual content that feels natural for modern websites, real estate platforms, and social media environments where motion performs best.
             </p>
           </GlassCard>
         </Reveal>

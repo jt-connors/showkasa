@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import { navItems, site } from '../data/site'
+import showkasaMarkClean from '../assets/showkasa-mark-clean.jpg'
 
 export default function Footer() {
   return (
@@ -16,8 +17,11 @@ export default function Footer() {
             </Link>
           ))}
         </div>
-        <Link to="/contact" className="text-sm font-medium text-white/80 transition hover:text-white">
-          {site.tagline}
+        <Link to="/contact" className="flex flex-col items-center gap-3 text-center text-sm font-medium text-white/80 transition hover:text-white">
+          <div className="flex h-12 w-12 items-center justify-center overflow-hidden rounded-full border border-white/12 bg-[#f7f4ee] shadow-[0_12px_40px_rgba(0,0,0,0.28)]">
+            <img src={showkasaMarkClean} alt="Showkasa" className="h-[94%] w-[94%] translate-x-[3%] object-contain" />
+          </div>
+          <span>{site.tagline}</span>
         </Link>
       </div>
     </footer>

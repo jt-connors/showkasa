@@ -128,11 +128,11 @@ export const services = [
   },
   {
     title: 'Social Media Video Content',
-    body: 'Receive short-form edits formatted for Instagram, TikTok, reels, stories, paid ads, and other digital campaigns.',
+    body: 'Receive short-form edits formatted for YouTube, Instagram, TikTok and other digital campaigns.',
   },
   {
     title: 'Branded Content Packages',
-    body: 'For businesses that want consistent visual assets across multiple channels, we offer packages designed for repeat content needs and broader brand consistency.',
+    body: 'For businesses that want consistent visual assets across multiple channels. We offer packages designed for repeat content needs and broader brand consistency.',
   },
 ]
 
@@ -177,27 +177,23 @@ export const faqs = [
   },
   {
     q: 'Do I need professional photos?',
-    a: 'Professional images help, but they are not always required. If your existing photos are clear, well-lit, and strong enough visually, we can often work with them.',
+    a: 'If your existing photos are clear, well lit and visually strong we can work with them.',
   },
   {
     q: 'What types of businesses do you work with?',
-    a: 'We work with property listings, short-term rentals, restaurants, hotels, retail businesses, and other brands that want stronger visual presentation online.',
+    a: 'We work with property management companies, short-term rentals, restaurants, hotels, retail businesses, and other brands that want stronger visual presentation online.',
   },
   {
     q: 'Can I use the videos on multiple platforms?',
-    a: 'Yes. We can format content for websites, Instagram, TikTok, listing sites, ads, and more.',
+    a: 'Yes. We can format content for Youtube, Instagram, TikTok, websites, listing sites, ads, and more.',
   },
   {
     q: 'Do you offer recurring content packages?',
-    a: 'Yes. We can create ongoing content packages for brands or teams that need a steady flow of showcase visuals.',
+    a: 'Yes. We can create ongoing content packages for brands or teams that need a steady flow of visuals.',
   },
   {
     q: 'How long does the process take?',
     a: 'Turnaround depends on the project scope, but our workflow is designed to be faster and lighter than traditional production.',
-  },
-  {
-    q: 'Is this filmed on-site?',
-    a: 'Not necessarily. Showkasa is built around transforming existing images into cinematic video content, which means many projects can be completed without a full on-site shoot.',
   },
   {
     q: 'Can you match my brand style?',
